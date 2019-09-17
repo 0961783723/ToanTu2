@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/background2"
+    tools:context="demo.utt37.congcau.toantu.MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/mau1"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/txtltsk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Các kiểu lập trình sự kiện" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/txtsoa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Số A" />
+
+            <EditText
+                android:textStyle="bold"
+                android:id="@+id/edtsoa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+
+                android:textStyle="bold"
+                android:id="@+id/txtsob"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Số B" />
+
+            <EditText
+                android:textStyle="bold"
+                android:id="@+id/edtsob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+        </TableRow>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="4"
+            >
+
+            <Button
+                android:id="@+id/btncong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="+"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btntru"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:text="-" />
+
+            <Button
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnnhan"
+                android:layout_weight="1"
+                android:text="*" />
+
+            <Button
+                android:textStyle="bold"
+                android:id="@+id/btnchia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="/" />
+        </LinearLayout>
+
+        <TableRow
+            android:layout_marginTop="20dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:gravity="center">
+            <TextView
+                android:textSize="25dp"
+                android:id="@+id/txtkq"
+                android:background="@color/mau2"
+                android:text=""
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </TableRow>
+    </TableLayout>
+
+
+</LinearLayout>
